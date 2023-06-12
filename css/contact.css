@@ -1,0 +1,55 @@
+@import url(//db.onlinewebfonts.com/c/0407ed4aef00d4db57f6001e710e0a85?family=Castellar);
+@font-face {font-family: "Castellar"; src: url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.eot"); src: url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.woff") format("woff"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.svg#Castellar") format("svg"); }
+
+
+.contact {
+    margin-left : 300px;
+    background : url(../img/contactBackground.png) no-repeat;
+    background-size: contain;
+    width: 800px;
+    height: 800px;
+    text-align: center;
+    text-overflow: clip;
+    padding: 400px 0;
+    font-size: 3em;
+}
+
+.contactText {
+    font-family: Castellar;
+}
+
+.socialMedias {
+    display :grid;
+    margin-top: 100px;
+    width: auto;
+    height: 900px;
+}
+
+.socialMedias img {
+    width : 200px;
+    height : 200px;
+}
+
+img#i2 {
+    grid-row-start: 2;
+    grid-row-end:2;
+    grid-column-start:2;
+    grid-column-end: 2;
+    margin-top: -100px;
+}
+
+img#i3 {
+    grid-row-start : 3;
+    grid-row-end : 3;
+    grid-column-start: 1;
+    grid-column-end : 1;
+    margin-top : -100px;
+}
+
+img#i4 {
+    grid-row-start : 3;
+    grid-row-end : 3;
+    grid-column-start: 3;
+    grid-column-end : 3;
+    margin-top : -100px;
+}

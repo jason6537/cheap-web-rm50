@@ -1,0 +1,13 @@
+@media only screen and (max-width: 1366px){
+
+    .yellowbar {
+
+        background-color : #dccc5c;
+        width : 20px;
+        height : 700px;
+        margin-left : -200px;
+        border-style:solid;
+        border-color: #7f6000;
+    }
+
+}

@@ -1,0 +1,46 @@
+@import url(//db.onlinewebfonts.com/c/0407ed4aef00d4db57f6001e710e0a85?family=Castellar);
+@font-face {font-family: "Castellar"; src: url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.eot"); src: url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.woff") format("woff"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0407ed4aef00d4db57f6001e710e0a85.svg#Castellar") format("svg"); }
+
+
+.horizontal-yellowbar {
+    background-color : #dccc5c;
+    width : 77%;
+    height : 20px;
+    border-style:solid;
+    border-color: #7f6000;
+    position: absolute;
+    margin-left: 300px;
+}
+
+
+.left {
+    width: 100px;
+    height: 800px;
+    margin-top: 50px;
+    text-align: center;
+    padding: 0px 100px;
+}
+.sidebar {
+    /* The configuration for the  width*/
+    width: 200px;
+    height: 600px;
+    writing-mode: vertical-rl;
+    transform: rotate(180deg);
+    font-size: 3em;
+    font-stretch: expanded;
+    font-family: Castellar;
+}
+
+.right {
+    clear: both;
+    width: 77%;
+    margin-top: 50px;
+    margin-left : 0px;
+    font-size: 3em;
+    color : hsl(120, 4%, 22%);
+}
+
+.right p {
+    line-height: 1.3em;
+}
+

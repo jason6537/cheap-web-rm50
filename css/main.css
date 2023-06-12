@@ -1,0 +1,183 @@
+@font-face {
+    font-family : navFont;
+    src : url(font/Vivaldi.woff)
+}
+
+.logo {
+    width : 150px;
+    height : 150px;
+    float : left;
+}
+
+body {
+    display: block;
+    background: url(../img/background.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size : cover;
+    -o-background-size : cover;
+    background-size: cover;
+}
+.nav-wrapper {
+    width : 100%;
+    line-height : 75px;
+    padding: 0px 50px;
+    z-index: 1;
+}
+
+.nav {
+    float: left;
+    width : 75%;
+    margin-left: 100px;
+    background-color: #8c84ac;
+    color: black;
+    height: 75px;
+}
+
+.nav li {
+    margin-left: 60px;
+    display : inline-block;
+    list-style : none;
+    width: 20%;
+}
+
+.nav li a {
+    color :#fff;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    padding: 0px 70px; 
+}
+
+.container {
+    clear:both;
+    display:flex;
+    height: max-content;
+    width: 100%;
+}
+
+.leftSide {
+    width : 800px;
+}
+
+.leftSide > img#i1{
+    width : 250px;
+    height : 300px;
+    margin : 100px 150px 10px 150px;
+}
+
+.leftSide > img#i2{
+    width : 250px;
+    height : 300px;
+    margin : -20px 150px 10px 150px;
+}   
+
+.description {
+    background : url(../img/jean-victor-balin-cloud.svg) no-repeat;
+    width : 400px;
+    height: 400px;
+    text-align: center;
+    padding: 120px 0;
+    margin : 50px 100px 10px 100px;
+    font-size: 1.5em;
+}
+
+/* Responsive Tweaks for low resolution on 1366 720p */
+@media only screen and (max-width: 1366px){
+
+    .nav li {
+        margin-left: 10px;
+        display : inline-block;
+        list-style : none;
+        width: 23%;
+    }
+    
+    .yellowbar {
+
+        background-color : #dccc5c;
+        width : 20px;
+        height : 700px;
+        margin-left : -200px;
+        border-style:solid;
+        border-color: #7f6000;
+    }
+
+    .rightSide {
+        display : grid;
+        grid-template-columns: auto auto auto;
+        margin-left : 10px;
+        width: 40%;
+    }
+    
+    .loveIcon {
+        background: url(../img/loveImg\ \(1\).png) no-repeat;
+        width : 300px;
+        height : 300px;
+        text-align: center;
+        text-overflow: clip;
+        padding: 110px 0;
+        font-size: 1.4em;
+    }
+    
+    .loveIcon#icon1{
+    
+        margin-left: -20pxpx;
+        margin-top: 500px;
+    }
+
+    .loveIcon#icon2 {
+        margin-left: -300px;
+    }
+    
+    .loveIcon#icon3 {
+        margin-left: -20px;
+        margin-top : 300px;
+    }
+
+    
+
+}
+
+.yellowbar {
+
+    background-color : #dccc5c;
+    width : 20px;
+    height : 800px;
+    margin-left : -200px;
+    border-style:solid;
+    border-color: #7f6000;
+}
+
+.rightSide {
+    display : grid;
+    grid-template-columns: auto auto auto;
+    margin-left : 100px;
+    width: 50%;
+}
+
+.loveIcon {
+    background: url(../img/loveImg\ \(1\).png) no-repeat;
+    width : 300px;
+    height : 300px;
+    text-align: center;
+    text-overflow: clip;
+    padding: 110px 0;
+    font-size: 1.4em;
+}
+
+.loveIcon#icon1{
+
+    margin-left:30px;
+    margin-top: 500px;
+}
+
+.loveIcon#icon3 {
+    margin-left: 20px;
+    margin-top : 300px;
+}
+
+.moon-icon{
+    clear: both;
+    float:right;
+    margin-top: -300px;
+}

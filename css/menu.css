@@ -1,0 +1,60 @@
+.right {
+    display: grid;
+    justify-items: center;
+}
+
+.right img {
+    width: 500px;
+    height: 500px;
+}
+
+img#i2 {
+    grid-row-start: 1;
+    grid-row-end: 1;
+    grid-column-start: 2;
+    grid-column-end: 2;
+}
+
+.bigloveIcon {
+    background: url(../img/loveImg.png) no-repeat;
+    width : 600px;
+    height : 400px;
+    text-align: center;
+    text-overflow: clip;
+    padding: 230px 0;
+    font-size: 1em;
+}
+
+.bigloveIcon#i3,img#i4 {
+    margin-top: -100px;
+}
+
+.moon-icon {
+    margin-top : -300px
+}
+
+
+@media only screen and (max-width: 1920px){
+
+    .bigloveIcon{
+        background: url(../img/loveImg\ \(1\).png) no-repeat;
+        width : 300px;
+        height : 300px;
+        text-align: center;
+        text-overflow: clip;
+        padding: 110px 0;
+        font-size: 0.8em;
+    }
+
+    .right img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .moon-icon {
+        margin-top : -400px;
+    }
+
+}
+
+
